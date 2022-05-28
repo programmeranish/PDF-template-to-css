@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+input{
+  border-radius: 5px;
+}
 a{
   text-decoration: none;
   color: black;
@@ -108,7 +111,7 @@ li {
 }
 .form-input {
   float: left;
-  width: 500px;
+  width: 700px;
 }
 .form-input h2 {
   margin: 20px 0 8px;
@@ -139,6 +142,7 @@ li {
 }
 .block-checkbox input {
     display: inline;
+    margin:5px 0px;
 } 
 .block-checkbox::after{
     content: "";
@@ -147,10 +151,7 @@ li {
 }
 .checkbox-container .inline-checkbox {
   float: left;
-  width: 70%;
-}
-.inline-checkbox label{
-    padding:20px;
+  width: 400px;
 }
 
 .checkbox-container::after {
@@ -159,17 +160,26 @@ li {
   clear: both;
 }
 
+
+
 .success{
     border:1px solid green
 }
 .error{
     border:1px solid red
 }
-.inline-radios{
-    float: left;
+.radio-container{margin:20px 0px;}
+.radio-container .block-radios{
+  float: left;
+  margin: 0px 20px;
 }
-.block-radios{
-    float: left;
+.radio-container .inline-radios{
+  float: left;
+  margin: 0px 20px;
+
+}
+.radio-container input{
+  margin: 0px 10px;
 }
 .radio-container::after{
     content: "";

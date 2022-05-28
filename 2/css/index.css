@@ -118,27 +118,50 @@ article h1{
 }
 
 
+.tab-container{
+    width:70%;
+    overflow: hidden;
+    margin :20px 0px;
+
+}
 .tabs{
-    padding: 20px 0px;
-    width:100%;
+    position: relative;
+}
+.tabs::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 .tabs div{
+    position: relative;
     float: left;
     color:rgb(192, 73, 192);
     text-align: center;
-    height: 50px;
-    width:150px;
+    height: 25px;
+    width:100px;
+    padding: 5px;
     border: 1px solid grey;
-    padding: 10px;
+margin:0px;
+display: inline-block;
 }
-
-
-.tabs::after{
+.tabs div:hover{
+    background-color: aquamarine;
+}
+.tabs span{
     display: block;
-    content: "";
-    clear: both;
-    border-top: 1px solid grey;
+    position: absolute;
+    left:-100px;
+    width: 50vw;
+    height: 1px;
+    border-bottom: 1px solid grey;
+
 }
+.tabs .active{
+    border-bottom:0px ;
+}
+
+
+
 .tab-container p{
 line-height: 1.8;
 font-size: 18px;

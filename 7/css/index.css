@@ -189,3 +189,19 @@ float: left;
     display: block;
     clear: both;
 }
+.card2 {
+    position: relative;
+}
+.card2 >div{
+    display: block;
+    padding-top: 14px;
+    color: white;
+    position: absolute;
+    bottom: 48px;
+    left: 124px;
+    border-radius: 50%;;
+    z-index: 2;
+    height:50px;
+    width:50px;
+    background-color: green;
+}
