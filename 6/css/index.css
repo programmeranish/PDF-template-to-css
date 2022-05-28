@@ -74,13 +74,57 @@ header::after{
     width:80%;
     margin: auto;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 h1{
     margin: 20px 0px;
 }
 table{
     width:100%;
 }
-tr{
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+td,th{
+    height: 50px;
+
+}
+thead th{
+    text-align: start;
+}
+th,tr:nth-child(even){
+    background-color: aliceblue;
+}
+
+td:first-child,th:first-child{
+    font-weight: 800;
+}
+td,th{
+    border:1px solid grey;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+
+}
+td:first-child{border-top: none;}
+
+.pages{
+    float: right;
+}
+
+.pages li{list-style: none;
+float:left;
+border:1px solid grey;
+}
+.pages li{
+    padding:10px;
+    color:blueviolet
+}
+.pages li:hover{
+    background-color: blueviolet;
+    color:white
+}
+
+.pages li:first-child{
+    background-color: grey;
+    color:black
 }

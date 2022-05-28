@@ -1,0 +1,191 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width:100%;
+    height:60px;
+    background-color: rgb(245, 245, 245);
+}
+header::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.navbar{
+    width:80%;
+    margin:auto;
+
+}
+.navbar::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.nav-logo{
+    width:100px;
+    padding:0px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin:10px 20px;
+    height: 50px;
+    float: left;
+}
+.nav-item{
+    float: left;
+    margin:10px;
+}
+.nav-item::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.nav-item li{
+    list-style: none;
+    float: left;
+    margin: 10px 15px;
+    color: rgb(0, 0, 0,0.7);
+}
+.search{
+    float:right;
+    width:300px;
+    margin: 10px;
+}
+.search input{
+    padding: 10px;
+    height: 30px;
+    border: 1px solid  rgb(199, 202, 199,0.5);
+}
+.search button{
+    background-color: white;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid rgb(52, 236, 52);
+    color: rgb(52, 236, 52);
+
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+h1{
+    margin: 20px 0px 10px;
+}
+
+.card{
+    margin: 40px;
+    padding: 5px;;
+    width:300px;
+    box-shadow: 1px 1px 8px; 
+    text-align: center;
+    float: left;
+}
+.card-top{
+    position: relative;
+    margin: 10px;
+}
+.card-top img{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    float: left;
+}
+.card-top .top-info{
+    padding:0px 10px;
+    float :left;
+    width:150px;
+}
+.card-top .menu{
+    position: absolute;
+    top: 0;
+    right:0;
+    width:60px;
+}
+.card-top::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.card-buttons img{
+    margin :10px;
+}
+.comment-section{
+    position: relative;
+    margin:20px 0px;
+}
+.card-1 .comment-section img{
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    margin-top: 5px;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+}
+.comment-section input{
+    position: absolute;
+    width:200px;
+    padding:5px;
+    border-radius: 25px;
+    right: 20px;
+    bottom:0;
+}
+.card2{
+    padding: 14px;
+    text-align: center;
+}
+.card2 p{
+    margin: auto;
+    text-align: center;
+    width: 14ch;
+    margin-top:10px;
+}
+
+.card3 .cardinfo{
+    text-align: left;
+}
+.card3 h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.cardinfo >div{
+    width:60px;
+padding: 5px;
+    color: white;
+    border-radius:10px ;
+    text-align: center;
+    background-color: green;
+}
+.card3 .comment-section{
+    position: relative;
+    text-align: center;
+}
+.card3 .comment-section img:nth-child(1){
+    margin-left:10px;
+  float:left;
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    
+}
+.card3 .comment-section p{
+    float: left;
+    padding: 10px;
+}
+.card3 .comment-section img:last-child{
+float: left;
+}
+.card3 .comment-section::after{
+    content: "";
+    display: block;
+    clear: both;
+}
